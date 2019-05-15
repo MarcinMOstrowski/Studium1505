@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liczniki", "Liczniki\Liczniki.csproj", "{20DD8BEE-3CAF-4B4C-87A3-24AFB0C1B6BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liczniki.Tests", "Liczniki.Tests\Liczniki.Tests.csproj", "{0F435488-7E73-49F7-8F96-D8F5C7FB580C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3E23D98-1706-44FA-A764-74F73589CDBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20DD8BEE-3CAF-4B4C-87A3-24AFB0C1B6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DD8BEE-3CAF-4B4C-87A3-24AFB0C1B6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DD8BEE-3CAF-4B4C-87A3-24AFB0C1B6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DD8BEE-3CAF-4B4C-87A3-24AFB0C1B6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F435488-7E73-49F7-8F96-D8F5C7FB580C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F435488-7E73-49F7-8F96-D8F5C7FB580C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F435488-7E73-49F7-8F96-D8F5C7FB580C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F435488-7E73-49F7-8F96-D8F5C7FB580C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB8C5FEA-4AED-4EFE-8A19-D49B591CFD9D}
+	EndGlobalSection
+EndGlobal
