@@ -232,6 +232,7 @@
     <Compile Include="Wplata.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="WplatasController.cs" />
     <Compile Include="WykazOperacji.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -319,6 +320,11 @@
     <Content Include="Views\Odczyts\Details.cshtml" />
     <Content Include="Views\Odczyts\Edit.cshtml" />
     <Content Include="Views\Odczyts\Index.cshtml" />
+    <Content Include="Views\Wplatas\Create.cshtml" />
+    <Content Include="Views\Wplatas\Delete.cshtml" />
+    <Content Include="Views\Wplatas\Details.cshtml" />
+    <Content Include="Views\Wplatas\Edit.cshtml" />
+    <Content Include="Views\Wplatas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
