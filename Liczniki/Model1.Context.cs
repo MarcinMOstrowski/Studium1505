@@ -141,5 +141,7 @@ namespace Liczniki
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_upgraddiagrams");
         }
+
+        public System.Data.Entity.DbSet<Liczniki.Models.SaldoDto> SaldoDtoes { get; set; }
     }
 }

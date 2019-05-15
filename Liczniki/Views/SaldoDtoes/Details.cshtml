@@ -1,0 +1,57 @@
+﻿@model Liczniki.Models.SaldoDto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Saldo licznika</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NrLicznika)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrLicznika)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataOperacji)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataOperacji)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Odczyt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Odczyt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wplata)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wplata)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StanSalda)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StanSalda)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
