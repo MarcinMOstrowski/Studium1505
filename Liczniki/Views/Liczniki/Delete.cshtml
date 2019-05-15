@@ -1,0 +1,40 @@
+﻿@model Liczniki.Licznik
+
+@{
+    ViewBag.Title = "Rejestr Liczników";
+}
+
+<h2>Rejestr Liczników</h2>
+
+<h3>Czy usunąć wybrany licznik??</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NrLicznika)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrLicznika)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StanPoczatkowy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StanPoczatkowy)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Usuń" class="btn btn-default" /> |
+            @Html.ActionLink("Powrót", "Index")
+        </div>
+    }
+</div>
